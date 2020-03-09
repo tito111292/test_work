@@ -1,0 +1,619 @@
+#holy_box{
+    max-width: 966px;
+    padding: 0;
+}
+
+#holy_box .h2{
+    font-family: "Roboto";
+    font-size: 30px !important;
+    font-weight: lighter;
+}
+
+#holy_box p.text{
+    font-size: 12px;
+}
+
+#holy_box a:hover{
+    text-decoration: none;
+}
+
+#holy_box .container{
+    padding: 0;
+}
+
+#holy_box .navbar{
+    width: auto;
+}
+
+#holy_box .navbar ul li:first-child{
+    margin-left: 0;
+}
+
+#holy_box .navbar ul li{
+    margin-left: 5px;
+}
+
+#holy_box .navbar ul li .nav-link{
+    padding: 11px 0 0 0;
+    font-family: Roboto;
+font-style: normal;
+font-weight: 300;
+font-size: 10.125px;
+line-height: 16px;
+color: #4C4C4C;
+}
+
+#holy_box .navbar ul li.active a{
+    border-top: 1px solid #F4CE77;
+    border-radius: 1px;
+}
+
+#holy_box .navbar ul li:hover{
+    border-top: 1px solid #F4CE77;
+}
+
+#holy_box .header_block{
+    margin-top: 20px;
+}
+
+#holy_box #action_to_click .navbar{
+    padding: 0;
+}
+
+#holy_box #action_to_click ul li{
+    border-top: 1px solid #EFEFEF;
+    border-radius: 1px;
+    width: 140px;
+}
+
+#holy_box #action_to_click ul li:last-child{
+    margin-left: 20px;
+}
+
+#holy_box #action_to_click ul li a{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+
+#holy_box .img-fluid{
+    height:auto;
+}
+
+.btn_wall a{
+    position: relative;
+    display: block;
+    width: 205px;
+    height: 28px;
+    background: #E20613;
+    font-size: 10.125px;
+    color: white;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+.btn_wall a:hover{
+    background-color: #A40004;
+}
+
+.btn_wall a::after{
+    content: "";
+    position: absolute;
+    display: block;
+    right: -16px;
+    top: 0px;
+    width: 32px;
+    height: 30px;
+    background: url(../img/7.png) no-repeat;
+}
+
+.btn_wall a span{
+    font-family: Roboto;
+    font-weight: lighter;
+}
+
+#holy_box .btn_wall .float-right{
+    padding-right: 0;
+}
+
+
+
+
+
+#holy_box main{
+    margin-top: 70px;
+}
+
+#holy_box main .blockquote{
+    font-size: 43px;
+    line-height: 52px;
+    font-family: "Cormorant Garamond";
+}
+
+#holy_box main .blockquote p.quotes_text{
+    padding-left: 30px;
+}
+
+#holy_box main .blockquote p.quotes_text span{
+    color: #F4CE77;
+}
+
+#holy_box main .blockquote .squotes-left{
+    position: absolute;
+    left: 20px;
+}
+
+#holy_box main .blockquote .squotes-right{
+    position: relative;
+    left: 10px;
+}
+
+
+#holy_box main .author{
+    font-size: 12px;
+    text-align: right;
+}
+
+#holy_box main .author span{
+    border-top: 1px solid #F4CE77;
+    padding-top: 10px;
+}
+
+#holy_box main p.text{
+    padding-left: 30px;
+    font-size:11px;
+    margin-top: 20px;
+    font-family: "Roboto";
+    font-weight: lighter;
+}
+
+#holy_box main p.text::after{
+    content:"";
+    position: absolute;
+    height:1px;
+    width: 60px;
+    background-color: #F4CE77;
+    margin-top: 30px;
+}
+
+#holy_box main .help_block{
+    padding-left: 30px;
+    padding-bottom: 30px;
+    margin-top: 85px;
+}
+
+#holy_box main .help_block .row>div{
+    cursor: pointer;
+}
+
+#holy_box .help_block img{
+    width: 220px;
+    height: 190px;
+    padding-top: 20px;
+}
+
+#holy_box .help_block .h2{
+    padding-bottom: 45px;
+    text-transform: uppercase;
+}
+
+#holy_box .help_block h4{
+    font-size: 24px;
+    font-family: "Cormorant Garamond";
+}
+
+#holy_box .help_block h4::after{
+    content:"";
+    display: block;
+    height: 1px;
+    width: 60px;
+    background-color: #F4CE77;
+    position: relative;
+    top: -45px;
+}
+
+#holy_box .help_block p{
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: lighter;
+    margin-top: 6px;
+}
+
+#holy_box .help_block .btn_more{
+    text-align: right;
+    font-family: "Roboto";
+    font-weight: lighter;
+}
+
+#holy_box .help_block .btn_more a{
+    font-size: 12px;
+    color: black !important;
+}
+
+#holy_box .help_block .btn_more a:hover{
+    border-top: 1px solid #F4CE77;
+    padding-top: 5px;
+}
+
+#holy_box .help_block .money{
+    padding-top: 20px;
+}
+
+#holy_box .help_block .money p{
+    font-size: 10px;
+    font-family: "Roboto";
+    font-weight: lighter;
+    margin: 0;
+}
+
+#holy_box .help_block .money_have{
+    font-size: 14px !important;
+    font-family: "Roboto";
+    font-weight: lighter;
+    color: #F4CE77;
+}
+
+#holy_box .help_block .money_lost{
+    font-size: 14px !important;
+    font-family: "Roboto";
+    font-weight: lighter;
+    color: #E20613;
+    text-align: right;
+}
+
+#holy_box .help_block .progress{
+    height: 5px;
+    background-color: #E20613;
+    margin-top: 10px;
+}
+
+#holy_box .help_block .progress-bar{
+    height: 5px;
+    background-color: #F4CE77;
+}
+
+#holy_box .help_block .help_btn{
+    margin-top: 20px;
+}
+
+#holy_box .help_block .help_btn a{
+    position: relative;
+    display: block;
+    width: 205px;
+    height: 29px;
+    background: white;
+    border: 1px solid #E20613;
+    font-size: 10.125px;
+    color: #E20613;
+    text-align: center;
+    line-height: 30px;
+    text-transform: uppercase;
+    border-radius: 2px;
+}
+
+#holy_box .help_block .help_btn a::after{
+    content: "";
+    position: absolute;
+    display: block;
+    right: -16px;
+    top: 0px;
+    width: 32px;
+    height: 30px;
+    background: url(../img/8.png) no-repeat;
+    background-size: contain;
+}
+
+#holy_box .help_block .our_money{
+    width: 220px;
+    background-color: #F4CE77;
+    margin: 0 auto;
+    height: 50px;
+    margin-top: 13px;
+}
+
+#holy_box .our_money p{
+    font-size: 10px;
+}
+
+#holy_box .help_block .our_money .amount_money{
+    font-size: 14px;
+    color: #E20613;
+    margin-top: -15px;
+}
+
+#holy_box .help_block .our_money .img_heart{
+    height: 28px;
+    width: 31px;
+    background: url(../img/9.png) no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+    position: relative;
+    top: 12px;
+    left: 23px;
+}
+
+.help_block .list_click{
+    position: relative;
+    padding: 0 8px 0 0;
+    text-align: right;
+    font-size: 10px;
+    max-width: 205px;
+    margin: 0 auto;
+    margin-top: 25px;
+    height: 35px;
+    border-top: 1px solid #e1e1e1;
+    color: #4C4C4C;
+}
+
+.help_block .list_click::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 60px;
+    background-color: #F4CE77;
+    position: absolute;
+    bottom: 5px;
+    right: 0;
+}
+
+.help_block .list_click a{
+    color: #4C4C4C;
+    padding: 0px 0;
+    position: relative;
+    top: 5px;
+    text-transform: uppercase;
+}
+
+.help_block .our_money_block .list_click{
+    margin-top: 81px;
+}
+
+#holy_box main .news{
+    padding-left: 45px;
+    padding-bottom: 80px;
+    margin-top: 40px;
+}
+
+#holy_box main .news .h2{
+    padding-bottom: 25px;
+}
+
+#holy_box main .news p{
+    text-transform: uppercase;
+    font-size: 17px;
+    font-family: "Roboto";
+    font-weight: lighter;
+}
+
+#holy_box main .news .title_news{
+    font-size: 14px;
+    margin-top: 0px;
+    text-transform: none;
+}
+
+#holy_box main .news .title_news::after{
+    content: "";
+    display: block;
+    height: 1px;
+    width: 60px;
+    background-color: #F4CE77;
+    position: absolute;
+    bottom: 10px;
+    left: 15px;
+}
+
+#holy_box main .news .text_news{
+    font-size: 12px;
+    text-transform: none;
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+#holy_box main .news .row{
+    position: relative;
+}
+
+#holy_box main .news .btn_more{
+    position: absolute;
+    right: 0;
+    color: black;
+}
+
+#holy_box main .news .btn_more::after{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 60px;
+    right: 0;
+    background-color: #F4CE77;
+    margin-top: 30px;
+}
+
+#holy_box main .news .btn_more a{
+    color: #999898;
+    font-size: 12px;
+    text-transform: lowercase;
+}
+
+#holy_box main .date_block{
+    background: url(../img/border.png) no-repeat;
+    background-size: contain;
+    padding: 0px 7px;
+}
+
+#holy_box main .date_block .date{
+    font-size: 43px;
+    font-family: "Roboto";
+    font-weight: lighter;
+}
+
+#holy_box main .date_block .month{
+    font-size: 12px;
+    font-family: "Roboto";
+    font-weight: lighter;
+    text-transform: lowercase;
+    margin-top: -30px;
+    padding-left: 4px;
+}
+
+
+footer{
+    background-color:#f6f6f6;
+}
+
+footer img{
+    padding-top: 35px;
+    padding-bottom: 50px;
+}
+
+footer p{
+    font-family: "Roboto";
+    font-size: 10px;
+    font-weight: lighter;
+    padding: 0;
+    margin-bottom: 10px;
+}
+
+footer .block_menu::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 60px;
+    left: 15px;
+    background-color: #F4CE77;
+    margin-top: 30px;
+}
+
+footer .block_menu ul{
+    padding: 0;
+    margin: 0;
+    column-count: 3;
+    margin-top: 35px;
+}
+
+footer .block_menu ul li{
+    list-style:none;
+}
+
+footer .block_menu ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 10px;
+}
+
+footer .connect_block{
+    margin-top: 35px;
+}
+
+footer .connect_block .phone{
+    font-size: 25px;
+    text-align: right;
+}
+
+footer .connect_block .phone a{
+    position: relative;
+    color: #999898;
+    font-weight: lighter;
+}
+
+footer .connect_block .phone a::before{
+    content: "";
+    position: absolute;
+    width: 37px;
+    height: 75px;
+    top: 5px;
+    left: -35px;
+    background: url(../img/icon_phone.png) no-repeat;
+    background-size: contain;
+}
+
+footer .connect_block .phone a:hover{
+    text-decoration: none;
+}
+
+footer .connect_block .address{
+    position: relative;
+    margin-top: 15px;
+    text-align: right;
+}
+
+footer .connect_block .address p::before{
+    content: "";
+    position: absolute;
+    width: 29px;
+    height: 75px;
+    top: -10px;
+    left: -30px;
+    margin-left: 72px;
+    background: url(../img/icon_address.png) no-repeat;
+    background-size: contain;
+}
+
+footer .connect_block .social{
+    position: relative;
+    margin-top: 35px;
+}
+
+footer .connect_block .social::before{
+    content: "";
+    position: absolute;
+    height: 1px;
+    width: 230px;
+    right: 0;
+    top: -15px;
+    background-color: #F4CE77;
+}
+
+footer .connect_block .social ul{
+    column-count: 3;
+    grid-gap: 0px;
+}
+
+footer .connect_block .social ul li{
+    width: 30px;
+    height: 30px;
+    margin-left: 25px;
+    background-color:black;
+    list-style:none;
+}
+
+footer .connect_block .social ul li:first-child{
+    background: url(../img/instagramm.png) no-repeat;
+    background-size: contain;
+}
+
+footer .connect_block .social ul li:nth-child(2){
+    background: url(../img/fb.png) no-repeat;
+    background-size: contain;
+    background-position: 10px -3px;
+}
+
+footer .connect_block .social ul li:last-child{
+    background: url(../img/vk.png) no-repeat;
+    background-size: contain;
+    background-position: 3px 7px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+    footer .connect_block .address p::before{
+        left: -72px
+    }
+  }
